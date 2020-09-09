@@ -1,7 +1,7 @@
 # Simple Enclosure Manager
-Simple PCB to control stuff in your enclosured printer.
+This little board allows you to control your 3d printer's enclosure using physical buttons or MQTT (using scripts, [Domoticz](https://www.domoticz.com/), [Home assistant](https://www.home-assistant.io/) or [Octoprint](https://octoprint.org/) events). The target software for this board is [Tasmota](https://tasmota.github.io/docs/).
 
-This little board allows you to control your 3d printer's enclosure using physical buttons or MQTT (using scripts, [Domoticz](https://www.domoticz.com/), [Home assistant](https://www.home-assistant.io/) or [Octoprint](https://octoprint.org/) events).
+![alt text](https://github.com/Tai-Min/SEM/blob/master/media/cover.JPG "PCB")
 
 ## Features
 * Powered by 12V power supply
@@ -12,6 +12,8 @@ This little board allows you to control your 3d printer's enclosure using physic
 * Mains input secured with 10A fast fuse
 * Three button inputs to control LEDs, carbon filter fan and printer's PSU directly
 
-![alt text](https://github.com/Tai-Min/SEM/blob/master/media/1.JPG "PCB side")
-![alt text](https://github.com/Tai-Min/SEM/blob/master/media/2.JPG "PCB top")
-![alt text](https://github.com/Tai-Min/SEM/blob/master/media/3.JPG "PCB bottom")
+## Assembly
+
+## Uploading the firmware
+
+## Examples
