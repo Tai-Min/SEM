@@ -9,8 +9,8 @@ This little board allows you to control your 3d printer's enclosure using physic
 * Two 12V controllable outputs designed to control enclosure's LEDs and carbon filter fan , 1.5A total, supports PWM,
 * One mains relay for printer's power supply, up to 10A at 230V,
 * Three button inputs to control LEDs, carbon filter fan and printer's PSU directly
-* 12V input secured for overvoltage, reverse voltage and by 2A ressetable fuse,
-* Mains input secured for overvoltage and by 10A fast fuse.
+* 12V power connector secured for overvoltage, reverse voltage and by 2A ressetable fuse,
+* Mains power connector secured for overvoltage and by 10A fast fuse.
 
 ## Assembly
 ### Get the board
