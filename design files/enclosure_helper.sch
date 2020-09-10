@@ -324,7 +324,7 @@ FAN_PIN
 Wire Wire Line
 	8300 3200 8350 3200
 Connection ~ 8350 3200
-Text GLabel 6900 3050 0    50   Output ~ 0
+Text GLabel 7000 3250 0    50   Output ~ 0
 LED_BTN_RX_PIN
 Text GLabel 8650 5750 0    50   Output ~ 0
 FAN_BTN_PIN
@@ -790,7 +790,7 @@ Wire Wire Line
 	7250 5700 7200 5700
 Wire Wire Line
 	7250 5800 7200 5800
-Text GLabel 6900 2950 0    50   Input ~ 0
+Text GLabel 7000 3150 0    50   Input ~ 0
 RX
 Text GLabel 4300 2950 2    50   Output ~ 0
 TX
@@ -947,12 +947,12 @@ Wire Wire Line
 	6950 4450 7200 4450
 Text GLabel 6950 4450 0    50   Output ~ 0
 LED_BTN_PIN
-Text GLabel 6900 3150 0    50   Input ~ 0
+Text GLabel 7000 3350 0    50   Input ~ 0
 LED_BTN_PIN
 Wire Wire Line
-	7000 3150 6900 3150
+	7100 3350 7000 3350
 Wire Wire Line
-	7000 3050 6950 3050
+	7100 3250 7050 3250
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 5F534C14
@@ -1076,22 +1076,22 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5F5C880D
-P 7200 3050
-F 0 "J11" V 7150 3150 50  0000 L CNN
-F 1 "FLASH_JUMPER" V 7350 2750 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 3050 50  0001 C CNN
-F 3 "~" H 7200 3050 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Pin-Header-Female-Header_Amphenol-ICC_77311-102-02LF_Amphenol-ICC-77311-102-02LF_C180247.html" V 7200 3050 50  0001 C CNN "Link"
-	1    7200 3050
+P 7300 3250
+F 0 "J11" V 7250 3350 50  0000 L CNN
+F 1 "FLASH_JUMPER" V 7450 2950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7300 3250 50  0001 C CNN
+F 3 "~" H 7300 3250 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Pin-Header-Female-Header_Amphenol-ICC_77311-102-02LF_Amphenol-ICC-77311-102-02LF_C180247.html" V 7300 3250 50  0001 C CNN "Link"
+	1    7300 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3050 6950 2950
+	7050 3250 7050 3150
 Wire Wire Line
-	6950 2950 6900 2950
-Connection ~ 6950 3050
+	7050 3150 7000 3150
+Connection ~ 7050 3250
 Wire Wire Line
-	6950 3050 6900 3050
+	7050 3250 7000 3250
 $Comp
 L Device:D_Schottky D1
 U 1 1 5F61EFE9
@@ -1337,4 +1337,32 @@ F 4 "https://lcsc.com/product-detail/MOSFET_UTC-Unisonic-Tech-UT3N06L-TM3-T_C849
 	1    8600 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Varistor RV1
+U 1 1 5F59C28E
+P 10150 5050
+F 0 "RV1" H 10253 5096 50  0000 L CNN
+F 1 "Varistor" H 10253 5005 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W6.7mm_P7.5mm" V 10080 5050 50  0001 C CNN
+F 3 "~" H 10150 5050 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Varistors_RUILON-Shenzhen-Ruilongyuan-Elec-10D471K_C8760.html" H 10150 5050 50  0001 C CNN "Link"
+	1    10150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0141
+U 1 1 5F59E17A
+P 10150 5300
+F 0 "#PWR0141" H 10150 5100 50  0001 C CNN
+F 1 "GNDPWR" H 10350 5250 50  0000 C CNN
+F 2 "" H 10150 5250 50  0001 C CNN
+F 3 "" H 10150 5250 50  0001 C CNN
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4700 10150 4900
+Connection ~ 10150 4700
+Wire Wire Line
+	10150 5200 10150 5300
 $EndSCHEMATC
