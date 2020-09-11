@@ -38,8 +38,16 @@ Then put your device into programming mode by holding "FLASH" button and then pr
 
 Now, all you need to do is to flash Tasmota firmware into your board. Easiest method to do this is to use [Tasmotizer](https://tasmota.github.io/docs/Getting-Started/#flashing).
 ### Using NodeMCU
-<TODO>
-  
+Short EN pin to GND and simply connect it to the board:
+* 3.3V <-> 3.3V
+* Gnd <-> Gnd
+* Tx <-> Tx
+* Rx <-> Rx
+
+Then put your device into programming mode by holding "FLASH" button and then pressing "RESET" button. After a while release the "FLASH" button. Now the devise is in flash mode.
+
+Now, all you need to do is to flash Tasmota firmware into your board. Easiest method to do this is to use [Tasmotizer](https://tasmota.github.io/docs/Getting-Started/#flashing).
+
 ## Examples
 All of the examples listed here require a priori knowledge about used programs.
 ### Simple mosquitto script
