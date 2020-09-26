@@ -34,7 +34,7 @@ Simply connect the converter to the board:
 * Rx <-> Tx
 * Tx <-> Rx
 
-Then put your device into programming mode by holding "FLASH" button and then pressing "RESET" button. After a while release the "FLASH" button. Now the devise is in flash mode.
+Then put your device into programming mode by holding "FLASH" button and then pressing "RESET" button. After a while release the "FLASH" button. Now the device is in flash mode.
 
 Now, all you need to do is to flash Tasmota firmware into your board. Easiest method to do this is to use [Tasmotizer](https://tasmota.github.io/docs/Getting-Started/#flashing).
 ### Using NodeMCU
@@ -44,7 +44,7 @@ Short EN pin to GND and simply connect it to the board:
 * Tx <-> Tx
 * Rx <-> Rx
 
-Then put your device into programming mode by holding "FLASH" button and then pressing "RESET" button. After a while release the "FLASH" button. Now the devise is in flash mode.
+Then put your device into programming mode by holding "FLASH" button and then pressing "RESET" button. After a while release the "FLASH" button. Now the device is in flash mode.
 
 Now, all you need to do is to flash Tasmota firmware into your board. Easiest method to do this is to use [Tasmotizer](https://tasmota.github.io/docs/Getting-Started/#flashing).
 
